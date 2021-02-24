@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./gistLight.otf') format('otf'), url('./my-font.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  /*font-family: 'MyFont';*/
+  background: url('./info.png');
+}
